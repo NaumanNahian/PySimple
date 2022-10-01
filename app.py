@@ -59,4 +59,4 @@ if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8080)
     
     def test_redis_connection():
-    assert redis is  None
+    assert redis is not None
