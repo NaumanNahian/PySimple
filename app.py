@@ -58,5 +58,5 @@ if __name__ == "__main__":
     # from OpenShift.
     app.run(host='0.0.0.0', port=8080)
     
-    def test_redis_connection():
+def test_redis_connection():
     assert redis is not None
