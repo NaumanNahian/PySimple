@@ -57,3 +57,6 @@ if __name__ == "__main__":
     # `KeyError: 'getpwuid(): uid not found: 1000060000'` errors
     # from OpenShift.
     app.run(host='0.0.0.0', port=8080)
+    
+    def test_redis_connection():
+    assert redis is  None
